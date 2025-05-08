@@ -55,10 +55,10 @@ const Home = ({ Categorys }) => {
           <div className="row ">
             <div className="col-lg-7">
               <div className="img1  d-flex align-items-end">
-                <img src="public\HOME\Sarfazkhan03PAR.webp" className='img-fluid object-fit-cover' alt="bottom image" />
+                <img src="\HOME\Sarfazkhan03PAR.webp" className='img-fluid object-fit-cover' alt="bottom image" />
               </div>
               <div className="img2  ">
-                <img src="public\HOME\Razasikandar32.webp" className='img-fluid object-fit-cover' alt="" />
+                <img src="\HOME\Razasikandar32.webp" className='img-fluid object-fit-cover' alt="" />
               </div>
             </div>
             <div className="col-lg-5">
