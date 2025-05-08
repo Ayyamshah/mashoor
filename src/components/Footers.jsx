@@ -32,7 +32,7 @@ const Footers = () => {
       <div className="container-fulid mb-5 mt-0 py-5 Footer">
         <div className="row">
           <div className="col-lg-3 footer-lofo ">
-            <img src="/public/logo.svg" alt="" />
+            <img src="/logo.svg" alt="" />
             <p className='ms-5'>Mashroo, with its expertise,
               has impeccably made an unmatched space in
               the field of modest clothing through its traditionally modern range of thobes and abayas.</p>
