@@ -1,0 +1,424 @@
+/* swiper */
+html {
+  scroll-behavior: smooth;
+}
+#app { height: 100% }
+html,
+body p h1 h2 h3 h4 h5 h6  {
+  position: relative;
+  height: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+:root {
+  --base-font-family: Poppins, sans-serif;
+  --base-font-weight: 400;
+  --base-font-style: normal;
+  --larger-text-size: 30px;
+  --heading-font-family: Poppins, sans-serif;
+  --heading-font-weight: 400;
+  --heading-font-style: normal;
+  --heading-font-letter-spacing: normal;
+  --heading-font-family: Poppins, sans-serif;
+    --heading-font-weight: 400;
+    --heading-font-style: normal;
+}
+
+body {
+  font-family: var(--base-font-family);
+  font-style: var(--base-font-style);
+  font-weight: var(--base-font-weight);
+  background-color: rgb(var(--body-bg-color));
+  color: rgb(var(--body-text-color));
+  font-size: var(--base-text-size);
+  line-height: var(--base-line-height);
+ 
+}
+h1, .h1, h2, h3, h4, h5, h6, p .heading-font {
+  font-family: var(--heading-font-family);
+  font-style: var(--heading-font-style);
+  font-weight: var(--heading-font-weight);
+  letter-spacing: var(--heading-font-letter-spacing);
+}
+
+ .category img{
+  border-radius: 10px;
+}
+
+.col-lg-7 .img1 img{
+  position: absolute;
+    top: 1764px;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    left: 90px;
+  
+}
+.col-lg-7 .img2 img{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  right: -233px;
+}
+.col-lg-5 {
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: .1em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  color: rgb(var(--body-text-color));
+}
+.DANISH1DAWAR img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* --------Footers--------- */
+.Footer{
+  background-color: rgb(247, 223, 223);
+}
+.footer-lofo img{
+   width: 55%;
+   height: 55%;
+   margin-left:65px ;
+}
+/* ------------------Home--------------- */
+ .category h6{
+  text-decoration: none;
+  
+}
+/* ------------------Home--------------- */
+
+/* --------Thobe-------- */
+.Thobe{
+  position: relative;
+  /* overflow: hidden; */
+}
+.btn-container {
+  position: absolute;
+  transform: translateY(-10vh);
+  opacity: 0;
+  transition: all 0.3s ease-in;
+
+
+}
+.Thobe:hover .btn-container{
+  transform: translateY(-15vh);
+  opacity: 1;
+}
+/* ------addcartMess-icon------ */
+@keyframes popInOut {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+/* ------addcartMess-icon------ */
+
+.animate-icon {
+  animation: popInOut 1s ease-in-out forwards;
+}
+
+/* ---------cart--------- */
+.quantity-controls{
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.quantity-controls button.btn {
+  border: 22% ;
+  border-color: rgb(238, 216, 216);
+  background-color: rgb(227, 241, 241);
+}
+.animated-cart {
+  position: fixed;
+  top: 80px;
+  right: -100%;
+  width: 400px;
+  height: 90vh;
+  background: white;
+  z-index: 999;
+  transition: right 0.5s ease-in-out;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+.animated-cart.show {
+  right: 10px;
+}
+.cart-drawer {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 350px;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 1050;
+}
+.cart-drawer.open {
+  right: 10px;
+}
+/* --------cart---------- */
+
+/* -------------------izaar-------------------- */
+.Izaar  {
+  background-image: url(../public/Izar/Izar.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  color: rgb(25, 75, 75);
+  
+}
+.Izaar h4 p{
+  color: rgb(230, 12, 12);
+}
+
+/* -------------------izaar-------------------- */
+/* ------------------OurStory-------------------- */
+.benner{
+  position: relative;
+}
+.benner h1{
+  background-color: white;
+  position: absolute;
+  font-size: 80px; 
+  top: 215px;
+  left: 35%;
+  padding: 30px;
+}
+/* -------.DANISH1DAWAR--------- */
+.DANISHDAWAR  {
+  background-image: url(../public/DanishDawar/DanishDawarBeneer.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  color: rgb(25, 75, 75);
+  padding: 150px;
+}
+.DANISHDAWAR .title h1{
+  background-color: rgb(27, 28, 29);
+  padding: 15px;
+}
+/* -------.DANISH1DAWAR end--------- */
+/* -------.Sale--------- */
+.Sale  {
+  
+  background-image: url(../public/Sale/SaleBanner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  color: rgb(25, 75, 75);
+  padding: 150px;
+}
+.Sale .title h1{
+  padding: 15px;
+}
+ span .NEW {
+  background-color: rgb(153, 116, 116);
+}
+/* -------.Sale----end----- */
+@media (max-width: 576px) {
+  .btn-container .btn {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+  }
+  .btn-container {
+    position: absolute;
+    transform: translateY(-10vh);
+    opacity: 0;
+    transition: all 0.3s ease-in;
+  
+  
+  }
+  .Thobe:hover .btn-container{
+    transform: translateY(-25vh);
+    opacity: 1;
+  }
+  @keyframes popInOut {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    25% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
+}
+/* ----------Quily buy btn----- */
+.Thobe .card-body h6,
+.Thobe .card-body p,
+.Thobe .card-body span {
+  color: #646e77; /* Light text (almost white) */
+  transition: color 0.3s ease;
+}
+
+.Thobe:hover .card-body h6,
+.Thobe:hover .card-body p,
+.Thobe:hover .card-body span {
+  color: #212529; /* Dark text on hover */
+}
+.Thobe img{
+  transition: transform 0.4s ease-in-out;
+}
+.Thobe:hover img{
+  transform: scale(1.05); /* Slight zoom-in */
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.mx-custom {
+  margin-left: 265.5px;
+  margin-right: 265.5px;
+}
+
+@media (max-width: 1400px) {
+  .mx-custom {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mx-custom {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  .mx-custom {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .col-md-7 .img1 img{
+    position: absolute;
+      top: 3964px;
+      height: 300px;
+      width: 300px;
+      z-index: 1;
+      left: 30px;
+      
+    
+  }
+}
+.text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  
+}
+ /* ------------------BidayahCollection------------ */
+ .BidayahCollection{
+  
+  background-image: url(../public\Bidayha\bidayamobilebanner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  
+  color: rgb(25, 75, 75);
+  padding: 150px;
+}
+.BidayahCollection .title {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+ /* ------------------BidayahCollection----End-------- */
+ /* ------------------MarrakeshCollections------------ */
+ .MarrakeshCollections{
+  
+  background-image: url(../public/MarrakeshCollection/MarrakeshCollectionBaneer.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  
+  color: rgb(25, 75, 75);
+  padding: 150px;
+}
+.MarrakeshCollections .title {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+ /* ------------------MarrakeshCollections-End----------- */
+
+ .fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ----------------Login--------------- */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-popup {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+}
+
+
+
+
+/* ----------------Login--------------- */
+
