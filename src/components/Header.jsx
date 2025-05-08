@@ -8,7 +8,7 @@ const Header = ({CartNumber}) => {
   return (
     <section className='header m-0 p-0'>
         <nav className="navbar navbar-expand-lg navbar-light d-flex ">
-  <a className="navbar-brand" href="#"><img src="\public\logo.svg" className='d-block mx-5' alt="" style={{width:"30%", height:"30%"}} /></a>
+  <a className="navbar-brand" href="#"><img src="public\logo.svg" className='d-block mx-5' alt="" style={{width:"30%", height:"30%"}} /></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
