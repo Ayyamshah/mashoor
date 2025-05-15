@@ -42,8 +42,8 @@ const Abayas = ({ Abayas, addCart }) => {
                 {"off" in Abaya ? Abaya.off+"% off" : null} 
               </span>
 
-             <img
-                src={Abaya.img}
+              <img
+                src={process.env.PUBLIC_URL + Abaya.img}
                 alt={Abaya.produst}
                 className="card-img-top"
                 style={{ height: "400px", objectFit: "cover" }}
