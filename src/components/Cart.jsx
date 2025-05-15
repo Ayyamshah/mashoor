@@ -16,11 +16,11 @@ const Cart = ({ cart = [], deleteCart, upDateQuantity }) => {
             <div className="row my-2" key={item.id}>
               <div className="col-md-8 d-flex">
                <img
-                  className="img-fluid object-fit-cover"
-                  style={{ width: '100px', height: '150px' }}
-                  src={`/${item.img}`}
-                  alt=""
-                />
+  className="img-fluid object-fit-cover"
+  style={{ width: '100px', height: '150px' }}
+  src={process.env.PUBLIC_URL + item.img}
+  alt=""
+/>
                 <div className="ms-3">
                   <h4>{item.produst}</h4>
                   <p>${item.RS}</p>
