@@ -18,7 +18,7 @@ const Cart = ({ cart = [], deleteCart, upDateQuantity }) => {
                 <img
                   className="img-fluid object-fit-cover"
                   style={{ width: '100px', height: '150px' }}
-                  <img src={`${process.env.PUBLIC_URL}/${item.img}`} alt={item.produst} />
+                   src={`${process.env.PUBLIC_URL}/${item.img}`} alt={item.produst} 
 
                 />
                 <div className="ms-3">
