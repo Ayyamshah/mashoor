@@ -1,5 +1,6 @@
 {
   "name": "e-commers",
+  "homepage": "https://Ayyamshah.github.io/e-commers",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
+   "dependencies": {
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.6",
