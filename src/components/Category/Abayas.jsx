@@ -43,7 +43,7 @@ const Abayas = ({ Abayas, addCart }) => {
               </span>
 
                            <img
-  src={process.env.PUBLIC_URL + Abaya.img}
+  src={Abaya.img}
   alt={Abaya.produst}
   className="card-img-top"
   style={{ height: "400px", objectFit: "cover" }}
