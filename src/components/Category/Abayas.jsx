@@ -43,11 +43,11 @@ const Abayas = ({ Abayas, addCart }) => {
               </span>
 
               <img
-                src={Abaya.img}
-                alt={Abaya.produst}
-                className="card-img-top"
-                style={{ height: "400px", objectFit: "cover" }}
-              />
+  src={`${process.env.PUBLIC_URL}/${Abaya.img}`}
+  alt={Abaya.produst}
+  className="card-img-top"
+  style={{ height: "400px", objectFit: "cover" }}
+/>
               <div className="card-body d-flex flex-column text-center py-2 p-0">
                 <h6 className="card-title mt-1">{Abaya.produst}</h6>
                 <p className="card-text mb-1">
